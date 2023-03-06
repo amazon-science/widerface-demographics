@@ -1,19 +1,6 @@
 ## Amazon Alexa WiderFace Demographics
 
-Fairness has become an important agenda in computer vision and
-artificial intelligence. Recent studies have shown that many com-
-puter vision models and datasets exhibit demographic biases and
-proposed mitigation strategies. These works attempt to address
-accuracy disparity, spurious correlations, or unbalanced representa-
-tions in datasets in tasks such as face recognition, verification and
-expression and attribute classification. These tasks, however, all
-require face detection as the first preprocessing step, and surpris-
-ingly, there has been little effort in identifying or mitigating biases
-in face detection. Biased face detectors themselves pose a threat
-against fair and ethical AI systems, and their biases may be further
-passed on to subsequent downstream tasks such as face recognition
-in a computer vision pipeline. We collect perceived demographic attributes
-on a popular face detection benchmark dataset, WIDER FACE. In this repository, we release the demographic annotations for a subset of Widerface data which can be used by works to retrospect on their model fairness, and to mitigate biases in face detection.
+Fairness has become an important agenda in computer vision and artificial intelligence. Recent studies have shown that many computer vision models and datasets exhibit demographic biases and proposed mitigation strategies. These works attempt to address accuracy disparity, spurious correlations, or unbalanced representations in datasets in tasks such as face recognition, verification and expression and attribute classification. These tasks, however, all require face detection as the first preprocessing step, and surprisingly, there has been little effort in identifying or mitigating biases in face detection. Biased face detectors themselves pose a threat against fair and ethical AI systems, and their biases may be further passed on to subsequent downstream tasks such as face recognition in a computer vision pipeline. We collect perceived demographic attributes on a popular face detection benchmark dataset, WIDER FACE. In this repository, we release the demographic annotations for a subset of Widerface data which can be used by works to retrospect on their model fairness, and to mitigate biases in face detection.
 
 More information about our work can be found in 
 https://dl.acm.org/doi/abs/10.1145/3514094.3534153
