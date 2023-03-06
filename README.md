@@ -29,7 +29,7 @@ We annotated 12k faces from 3200 images using mechanical turks.
 Since we do not have test bounding boxes, we only annotate training anf validation data
 
 
-#### The annotation file
+## The annotation file
 
 The annotation file contains Image Filename | perceived_gender | perceived_age | perceived_skin | face | x_min | y_min | width | height | blur | illumination | occlusion |pose |
 
