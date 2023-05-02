@@ -26,15 +26,19 @@ From the training split we annotated around 9k faces, and trained a demographic 
 For Validation,
 We annotated 12k faces from 3200 images using mechanical turks.
 
-Since we do not have test bounding boxes, we only annotate training anf validation data
+Since we do not have test bounding boxes, we only annotate training and validation data
 
 
 #### The annotation file
 
-The annotation file contains Image Filename | perceived_gender | perceived_age | perceived_skin | face | x_min | y_min | width | height | blur | illumination | occlusion |pose |
+The annotation file contains Image Filename | perceived_gender | perceived_age | perceived_skin 
 
 
-Please download the images from Widerface website - http://shuoyang1213.me/WIDERFACE/
+You can download the images and bbox annotations from the Widerface website - http://shuoyang1213.me/WIDERFACE/
+
+
+Since we only annotate a subset of users, once downloaded, You can use the script provided to merge the demographic annotations with the widerface bounding box annotations
+
 
 ## Citation
 
@@ -49,6 +53,4 @@ Please download the images from Widerface website - http://shuoyang1213.me/WIDER
 
 ## License Summary
 
-The documentation is made available under the Creative Commons Attribution-ShareAlike 4.0 International License. See the LICENSE file.
-
-The files within this documentation are made available under the MIT-0 license. 
+The annotation data and code are made available under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. See the LICENSE file.
